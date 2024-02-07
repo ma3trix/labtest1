@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  #messageContainer {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: scroll;
+    background-color: #fff;
+  }
+  
+  #messageForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  #messageForm input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #messageForm button {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #messageForm button:hover {
+    background-color: #0056b3;
+  }
+  
